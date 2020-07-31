@@ -1,0 +1,318 @@
+body{
+
+    background: 
+    radial-gradient(white,red);
+     
+
+}
+
+.p-info{ 
+    color: rgb(244, 247, 247);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+
+}
+.member-info{
+    background: 
+    radial-gradient(rgb(49, 48, 48),rgb(117, 103, 103));
+    width: 320px;
+    height: 150px;
+    
+    
+}
+.see-more{
+    text-decoration: none;
+    padding-left: 5px;
+    background-color: bisque;
+    border-radius: 4px;
+  
+   
+
+}
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(128, 129, 129);
+    width: 320px;
+    
+}
+
+.logo{
+    height: 40px;
+}
+  
+header{
+    background-color: black;
+    width: 320px;
+    height: 40px;
+   
+    
+    text-align: center;
+    position: relative;
+}
+
+.info {
+    background-color:red;
+    height:15px;
+    width: 320px;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    
+}
+main{  
+    background-color: darkgray;
+    position: relative;
+    width: 320px
+    
+} 
+
+
+nav a {
+    text-decoration: none;
+    font: size 12px;
+    color: white;
+    padding-left: 4px;
+    padding-right: 4px;
+    
+}
+
+form {
+    position: absolute;
+    left: 4px;
+   top: 0;
+    text-align: right;
+    padding-top: 1.5px;
+    padding: 1.5px;
+
+}
+    .cart {
+
+        position: absolute;
+            top: 0px;
+            right: 2px;
+        padding-top: 3px;
+            list-style-type: none;
+        }
+      
+
+
+.btn-1{
+    
+    display: inline-block;
+    background-color: rgb(238, 116, 116);
+    color: seashell;
+    padding: 3px 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+    transition:background 0.
+    4s;
+    text-decoration: none;
+    
+    
+}
+.btn-1:hover{
+    background: black;
+    
+}
+.btn-2 {
+    display: inline-block;
+    background-color: rgb(238, 116, 116);
+    color: seashell;
+    padding: 3px 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+    transition:background 0.
+    4s;
+    text-decoration: none;
+    
+    
+}
+.btn-2:hover{
+    background-color:black;
+}
+
+.online {
+    background-color: snow;
+    width: 320px;
+    text-align: center;
+    font-size: 20px;
+    
+}
+.story img{
+    
+    width: 200px;
+   padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+.sale-image img{
+    width: 200px;
+    padding-top: 10px;
+     padding-left: 20px;
+     padding-right: 10px;
+   
+
+}
+.col-2 img {
+    
+    width: 300px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.col-3{
+    flex-basis: 10%;
+    min-width: 150px;
+    margin-bottom: 10px;
+    
+}
+.col-3 img {
+    width: 300px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    
+
+}
+.col-4{
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 320px;
+    transition: transform 0.4s;
+    background-color: rgb(100, 89, 80);
+
+}
+h1{
+    margin-left: auto;
+    margin-right: auto;
+    width: 320px;
+
+}
+.in-store 
+{ 
+    background-color: whitesmoke;
+    width: 320px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+    margin: 0 auto 10px;
+    line-height: 10px;
+    color: black;
+    font-weight: normal;
+    
+}
+
+
+.product {
+    color: white;
+    font-weight: normal;
+    
+}
+
+.col-4 p{
+    font-size: 14px;
+}
+.col-4:hover{
+    transform: translateY(-4px);
+}
+.col-4 img {
+    width: 300px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    
+}
+nav li {
+    color:whitesmoke;
+    list-style-type: none;
+        }
+        
+button {
+    display: inline-block;
+    background-color: red;
+    border-radius: 5px;
+    color:white;
+    transition:background 2.
+    4s;
+}
+
+button:hover{
+    color: black;
+}
+
+
+.footer-p {
+
+    font-size: 12;
+    text-align: center;
+    color: azure;
+    padding-top: 10px;
+
+}
+footer{
+    background-color:black;
+    height: 200px;
+    width:320px ;
+    margin-left: auto;
+    margin-right: auto;
+
+    
+}
+.terms{
+    text-align: center;
+    padding-left: 20px;
+    padding-right:20px ;
+}
+
+.material-icons{
+    color: thistle;
+    text-decoration: none;
+    font: size 12px;
+    color: white;
+    padding-left: 4px;
+    padding-right: 4px;
+    
+
+    bottom: 0px;
+}
+.footer {
+    
+    list-style-type: none;
+    padding-left: 10px;
+    padding: right 10px; 
+padding-top: 40px;
+    
+}
+.footer li{
+    display: inline-block;
+    margin-right: 7px;
+    color: blanchedalmond;
+    background-color: rgb(100, 89, 80);
+    border-radius: 5px;
+bottom: 20px;
+
+}
+
+
+p{
+    padding-left: 10px;
+    color: antiquewhite;
+
+}
+.Rating{
+    padding-left: 10px;
+    color: cornsilk;
+}
+.product{
+    padding-left: 10px;
+
+}
+
+
+    
